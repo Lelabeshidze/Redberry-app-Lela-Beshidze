@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul,
+ol {
+	list-style: none;
+}
+.flex{
+max-width: 1920px;
+width: 100%;
+max-height: 1080px;
+height:100%;
+margin:auto;
+padding: auto;
+background-color: #0C0D0E;
+}
+.backgroundimg {
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.langingcontent {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+}
+.rocketman img {
+    width: 409.92px;
+    height: 372.45px;
+}
+.title {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title a {
+    color: #fff;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+.title h1 {
+    color:#FE3B1F;
+    width: 900px;
+    height: 150px;
+    font-size: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title button {
+    background-color: #FE3B1F;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    border-radius: 60px;
+    width: 395px;
+    height: 79px;
+}
+.button {
+    padding-top: 70px;
+}
