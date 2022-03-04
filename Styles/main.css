@@ -65,6 +65,7 @@ background-color: #0C0D0E;
     border-radius: 60px;
     width: 395px;
     height: 79px;
+    cursor: pointer;
 }
 .button {
     padding-top: 70px;
