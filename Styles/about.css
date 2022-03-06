@@ -36,11 +36,11 @@ ol {
 .titlediv{
     width: 465px;
 }
-.covidform {
+.aboutform {
     margin-top:50px ;
     font-size:18px;
 }
-.covidform p {
+.aboutform p {
     padding-bottom: 20px;
 }
 #date {
@@ -58,6 +58,11 @@ ol {
     background-color: #0c0d0ef6;
     color: #fff;
 }
+textarea {
+    max-width: 535px;
+    width: 100%;
+    height: 122px;
+}
 .secondpart h1 {
     color: #FE3B1F;
     font-size: 50px;
@@ -68,7 +73,7 @@ ol {
     max-width: 705px;
     width: 100%;
     font-size:24px;
-    height: 606px;
+    height: 400px;
 }
 .controlcenter {
     margin-top:70px;

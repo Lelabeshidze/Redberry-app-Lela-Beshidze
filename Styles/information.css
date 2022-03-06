@@ -53,17 +53,20 @@ ol {
     flex-direction: column;
     justify-content: space-around;
     align-items:center;
-    background-color: #0C0D0E;
+    background-color: #0c0d0ef6;
     color: #fff;
 }
 .secondpart h1 {
     color: #FE3B1F;
     font-size: 50px;
-    margin-right: 70px;
+    max-width: 705px;
+    width: 100%;
 }
 .secondpart p {
-    width: 455px;
+    max-width: 705px;
+    width: 100%;
     font-size:24px;
+    height: 300px;
 }
 .controlcenter {
     margin-top:70px;
