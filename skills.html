@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redberry</title>
-    <link rel="stylesheet" href="Styles/information.css">
+    <link rel="stylesheet" href="Styles/skills.css">
 </head>
 <body>
     <section class="flex">
         <div class="title">
             <div class="titlediv">
-               <h1>Hey, Rocketeer, what are your coordinates?</h1>
+               <h1>Tell us about your skills</h1>
             </div>
-            <form id='informationform'>
-                <input type="text" id="fname" placeholder="First Name" minlength="2" required>
-                <input type="text" id="lname" placeholder="Last Name" minlength="2" required>
-                <input type="email" id="email" placeholder="E Mail" required>
-                <input type="tel" id="mobile" placeholder="+995 5__ __ __ __">
+            <form id='skillsform'>
+                    <select name="skills" id="skills">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Laravel">Laravel</option>
+                        <option value="React.JS">React.JS</option>
+                        <option value="Vue.JS">Vue.JS</option>
+                        <option value="Svelte">Svelte</option>
+                        <option value="Angular">Angular</option>
+                    </select>
+                    <input type="text" placeholder="Experience Duration in Years">
+                    <button class="addskill">Add Programming Language</button>
             </form>
             <div class="controlcenter">
                 <a href="">
@@ -45,9 +53,9 @@
         </div>
         <div class="secondpart">
             <div>
-               <h1>Redberry Origins</h1>
+               <h1>A bit about our battles</h1>
             </div>
-            <p>You watch “What? Where? When?” Yeah. Our founders used to play it. That’s where they got a question about a famous American author and screenwriter Ray Bradbury. Albeit, our CEO Gaga Darsalia forgot the exact name and he answered Ray Redberry. And at that moment, a name for a yet to be born company was inspired - Redberry 😇</p>
+            <p>As we said, Redberry has been on the field for quite some time now, and we have touched and embraced a variety of programming languages, technologies, philosophies, and frameworks. We are battle-tested in PHP Laravel Stack with Vue.js, refined in React, and allies with Serverside technologies like Docker and Kubernetes, and now we have set foot in the web3 industry.</p>
         </div>
     </section>
     <script src="main.js"></script>

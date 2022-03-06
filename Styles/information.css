@@ -27,7 +27,6 @@ ol {
     flex-direction: column;
     justify-content: center;
     align-items:center;
-
 }
 .title h1 {
     color: #FE3B1F;
@@ -65,4 +64,19 @@ ol {
 .secondpart p {
     width: 455px;
     font-size:24px;
+}
+.controlcenter {
+    margin-top:70px;
+    cursor: pointer;
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.next {
+    margin-left: 10px;
 }

@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul,
+ol {
+	list-style: none;
+}
+.flex {
+    max-width: 1920px;
+    width: 100%;
+    max-height: 1080px;
+    height:100%;
+    margin:auto;
+    padding: auto;
+    display:flex;
+}
+.title {
+    height: 656px;
+    left: 85px;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.titlediv {
+    margin-left: 25%;;
+}
+.title h1 {
+    width: 788px;
+    height: 175px;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FE3B1F;
+    padding-bottom:200px;
+}
+
+#skillsform {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 455px;
+    height: 193px;
+    left: 200px;
+    top: 366px;
+}
+ #skills {
+    width: 455px;
+    height: 54px;
+    left: 200px;
+    top: 366px;
+    background: #FFFFFF;
+    color: #FE3B1F;
+    border: 1px solid #525557;
+    box-sizing: border-box;
+}
+input {
+    width: 455px;
+    height: 54px;
+    left: 200px;
+    top: 366px;
+    background: #FFFFFF;
+    border: 1px solid #525557;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.secondpart {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #0C0D0E;
+    color: #fff;
+}
+.secondpart h1 {
+    color: #FE3B1F;
+    width: 788px;
+    height: 175px;
+    top: 72px;
+    margin-left: 70px;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+}
+.secondpart p {
+    width: 705px;
+    height: 606px;
+    left: 1089px;
+    top: 240px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 200%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.controlcenter {
+    margin-top:70px;
+    cursor: pointer;
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.next {
+    margin-left: 10px;
+}
+.addskill {
+    width: 195.57px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #FE3B1F;
+    border: none;
+    margin-top: 10px;
+    margin-left: 255px;
+    cursor: pointer;
+}
