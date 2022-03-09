@@ -17,29 +17,33 @@
                 <input type="text" id="fname" placeholder="First Name" minlength="2" required>
                 <input type="text" id="lname" placeholder="Last Name" minlength="2" required>
                 <input type="email" id="email" placeholder="E Mail" required>
-                <input type="tel" id="mobile" placeholder="+995 5__ __ __ __">
+                <input type="tel" id="mobile" placeholder="+995 5__ __ __ __" minlength="13">
+                <span class="field-error" id="name-error"></span>
+                <span class="field-error" id="email-error"></span>
+                <span class="field-error" id="mobile-error"></span>
+                <span class="field-error" id="lastname-error"></span>
             </form>
             <div class="controlcenter">
                 <a href="index.html">
                     <img  src="Images/Previous.png" alt="icon">
                 </a>
                 <a href="information.html">
-                    <span class="dot"></span>
+                    <span id="dot"></span>
                 </a>
                 <a href="skills.html">
-                    <span class="dot"></span>
+                    <span id="dot"></span>
                 </a>
                 <a href="covid.html">
-                    <span class="dot"></span>
+                    <span  id="dot"></span>
                 </a>
                 <a href="about.html">
-                    <span class="dot"></span>
+                    <span  id="dot"></span>
                 </a>
                 <a href="submit.html">
-                    <span class="dot"></span>
+                    <span  id="dot"></span>
                 </a>
                 <a href=""></a>
-                    <img  onclick="window.location.href='skills.html'"src="Images/Next.png" alt="icon">
+                    <img id="nextpage" onclick="window.location.href='skills.html'"src="Images/Next.png" alt="icon">
                 </a>
             </div>
         </div>
@@ -47,7 +51,30 @@
             <h1>Redberry Origins</h1>
             <p>You watch “What? Where? When?” Yeah. Our founders used to play it. That’s where they got a question about a famous American author and screenwriter Ray Bradbury. Albeit, our CEO Gaga Darsalia forgot the exact name and he answered Ray Redberry. And at that moment, a name for a yet to be born company was inspired - Redberry 😇</p>
         </div>
+        <div id="user-notification" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Oops...</h3>
+                    <button class="modal-close">X</button>
+                </div>
+                <div class="modal-body">
+                    <p>Enter the correct information</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="success" class="modal modal-success">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Success</h3>
+                    <button class="modal-close">X</button>
+                </div>
+                <div class="modal-body">
+                    <p>Information saved</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <script src="main.js"></script>
+    <script src="information.js"></script>
 </body>
 </html>
