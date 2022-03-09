@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redberry</title>
     <link rel="stylesheet" href="Styles/skills.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rowdies:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="flex">
@@ -15,16 +17,16 @@
             </div>
             <form id='skillsform'>
                     <select name="skills" id="skills">
-                        <option value="HTML">HTML</option>
-                        <option value="CSS">CSS</option>
+                        <option value="default">default</option>
+                        <!-- <option value="CSS">CSS</option>
                         <option value="PHP">PHP</option>
                         <option value="Laravel">Laravel</option>
                         <option value="React.JS">React.JS</option>
                         <option value="Vue.JS">Vue.JS</option>
                         <option value="Svelte">Svelte</option>
-                        <option value="Angular">Angular</option>
+                        <option value="Angular">Angular</option> -->
                     </select>
-                    <input type="text" placeholder="Experience Duration in Years">
+                    <input type="date" placeholder="Experience Duration in Years">
                     <button class="addskill">Add Programming Language</button>
             </form>
             <div class="controlcenter">
@@ -32,19 +34,19 @@
                     <img src="Images/Previous.png" alt="icon">
                 </a>
                 <a href="information.html">
-                    <span class="dot"></span>
+                    <span id="dot"></span>
                 </a>
                 <a href="skills.html">
-                    <span class="dot"></span>
+                    <span id="dot"></span>
                 </a>
                 <a href="covid.html">
-                    <span class="dot"></span>
+                    <span  id="dot"></span>
                 </a>
                 <a href="about.html">
-                    <span class="dot"></span>
+                    <span  id="dot"></span>
                 </a>
                 <a href="submit.html">
-                    <span class="dot"></span>
+                    <span  id="dot"></span>
                 </a>
                 <a href=""></a>
                     <img  onclick="window.location.href='covid.html'"src="Images/Next.png" alt="icon">
@@ -56,6 +58,6 @@
             <p>As we said, Redberry has been on the field for quite some time now, and we have touched and embraced a variety of programming languages, technologies, philosophies, and frameworks. We are battle-tested in PHP Laravel Stack with Vue.js, refined in React, and allies with Serverside technologies like Docker and Kubernetes, and now we have set foot in the web3 industry.</p>
         </div>
     </section>
-    <script src="main.js"></script>
+    <script src="skills.js"></script>
 </body>
 </html>

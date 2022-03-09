@@ -40,10 +40,12 @@ ol {
     width: 395px;
     height: 79px;
     cursor: pointer;
+    font-family: Montserrat, sans-serif;
 }
 .submitsection a {
     color: #fff;
     padding-top: 30px;
     text-decoration: underline;
     font-size: 28px;
+    font-family: Montserrat, sans-serif;
 }

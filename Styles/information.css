@@ -31,9 +31,10 @@ ol {
 .title h1 {
     color: #FE3B1F;
     font-size: 50px;
+    font-family: Rowdies;
 }
 .titlediv{
-    width: 465px;
+    width: 650px;
 }
 #informationform {
     display:flex;
@@ -46,6 +47,7 @@ ol {
     height: 50px;
     width: 350px;
     margin-top: 30px;
+    font-family: Montserrat, sans-serif;
 }
 .secondpart {
     width: 50%;
@@ -61,12 +63,14 @@ ol {
     font-size: 50px;
     max-width: 705px;
     width: 100%;
+    font-family: Rowdies;
 }
 .secondpart p {
     max-width: 705px;
     width: 100%;
     font-size:24px;
     height: 300px;
+    font-family: Montserrat, sans-serif;
 }
 .controlcenter {
     margin-top:70px;
