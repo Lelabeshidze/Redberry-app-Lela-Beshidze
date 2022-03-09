@@ -69,7 +69,8 @@ function validateMobile(){
         mobile.classList.add('has-error');
         if(mobile.validity.tooShort){
             mobileError.innerText = 'Mobile number must be 13 length';
-        }else{
+        }
+        else{
             mobileError.innerText = 'Mobile number is required';
         }
         return false;
@@ -101,6 +102,7 @@ lastname.addEventListener('input', () => {
 const nextPage = document.querySelector('#nextpage')
 nextPage.addEventListener('click', e => {
   e.preventDefault();
+
   const isValidname = validateUsername();
   const isValidEmail = validateEmail();
   const isValidlastname = validateUserlastname();
@@ -110,7 +112,8 @@ nextPage.addEventListener('click', e => {
   if(isValidname && isValidEmail && isValidlastname && isValidMobile  ){
     dynamicModalShow('#success');
   } else {
-    dynamicModalShow('#user-notification');
+    alert("Form must be filled out");
+    return false;
   }
 });
 

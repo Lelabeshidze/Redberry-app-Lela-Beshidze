@@ -9,5 +9,3 @@ const myJson = JSON.stringify();
 console.log(arr);
 
 
-
-
